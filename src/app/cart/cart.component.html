@@ -1,0 +1,23 @@
+<div>
+<h1>Cart</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Publisher</th>
+    <th>Price</th>
+    <th>Category</th>
+    <th>Description</th>
+  </tr>
+
+  <tr *ngFor="let cart">
+    <td>{{ cart.cart_title }}</td>
+    <td>{{ cart.cart_author }}</td>
+    <td>{{ cart.cart_publisher }}</td>
+    <td>{{ cart.cart_price }}</td>
+    <td>{{ cart.cart_category }}</td>
+    <td>{{ cart.cart_desc }}</td>
+  </tr>
+</table>
+</div>
